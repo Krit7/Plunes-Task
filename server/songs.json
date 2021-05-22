@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Float On",
+        "artist": "Modest Mouse",
+        "genre": "Alternative Rock",
+        "album": "bla bla bla",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61RmDQUGIAL._SL1500_.jpg",
+        "upVotes": 0,
+        "downVotes": 0
+    },
+    {
+        "title": "abc",
+        "artist": "123",
+        "genre": "dfasdf",
+        "album": "asdf",
+        "imageUrl": null,
+        "upVotes": 0,
+        "downVotes": 0
+    },
+    {
+        "title": "asdf",
+        "artist": "asdf",
+        "genre": "asdf",
+        "album": null,
+        "imageUrl": null,
+        "upVotes": 0,
+        "downVotes": 0
+    },
+    {
+        "title": "zzzzzz",
+        "artist": null,
+        "genre": null,
+        "album": null,
+        "imageUrl": null,
+        "upVotes": 0,
+        "downVotes": 0
+    },
+    {
+        "title": "asdf",
+        "artist": "asdf",
+        "genre": "asdf",
+        "album": "asdf",
+        "imageUrl": "asdf",
+        "upVotes": 0,
+        "downVotes": 0
+    },
+    {
+        "title": "abc-remix",
+        "artist": "123",
+        "genre": "dfasdf",
+        "album": "asdf",
+        "imageUrl": null,
+        "upVotes": 0,
+        "downVotes": 0
+    },
+    {
+        "title": "new",
+        "artist": "asdf",
+        "genre": "asdf",
+        "album": "asdf",
+        "imageUrl": "asdf",
+        "upVotes": 0,
+        "downVotes": 0
+    }
+]

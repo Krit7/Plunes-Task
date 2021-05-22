@@ -1,0 +1,79 @@
+.dashboardWrapper {
+    margin: 1.5em 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filterButtonsWrapper {}
+
+.filterButton {
+    margin: 1em 1em 0;
+    padding: 0.875em 1.875em;
+    font-size: 1em;
+    border: 1px solid #1168ab;
+    background-color: #1168ab;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.removeFilterButton {
+    margin: 1em 1em 0;
+    padding: 0.875em 1.875em;
+    font-size: 1em;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.songWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 3em auto;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+.songContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 2.5em 0 2em 2.5em;
+}
+
+.songImage {
+    width: 0%;
+    flex-grow: 1;
+    margin: 2em
+}
+
+.songVotes {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.voteWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.voteButton {
+    margin: 1em;
+    border: none;
+    background: none;
+    cursor: pointer;
+}

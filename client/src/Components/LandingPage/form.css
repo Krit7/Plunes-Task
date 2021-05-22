@@ -1,0 +1,70 @@
+.formWrapper {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 2.5em 2em;
+    border-radius: 5px;
+}
+
+.formTitle {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input {
+    width: 30em;
+    margin: 1.5em auto;
+    padding: 1.25em;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+.formButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formButton {
+    margin: 1em 1em 0;
+    padding: 0.875em 1.875em;
+    font-size: 1em;
+    border: 1px solid #1168ab;
+    background-color: #1168ab;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.textButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 0.975em;
+    color: #1168ab;
+}
+
+.resetPasswordWrapper {
+    margin: 1.5em 1.5em 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.error {
+    background-color: red;
+    padding: 1em;
+    border-radius: 5px;
+}
+.success {
+    background-color: green;
+    padding: 1em;
+    border-radius: 5px;
+    color: 'white',
+}
