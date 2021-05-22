@@ -57,18 +57,7 @@ const sendResetMail = (userDetails, resetURL) => {
         <p>Greetings </p>
         <p>We received a request for a password change on your account.</p>
         <p>You can reset your password by clicking the link <span>Reset Link :- ${resetURL}</span>or click the button below to reset it.</p>
-        <p>Your new password must:</p>
-        <ul>
-            <li>Contain 8-36 characters.</li>
-            <li>Contain at least one uppercase and lowercase letter</li>
-            <li>Contain at least one number</li>
-            <li>Not be the same as your username or email</li>
-        </ul>
-        <button class="button" onclick="window.open(${resetURL},'_blank')">Reset Your Password</button>
-        <p>This link will expire in next 30 minutes. After that, you will need to submit a new request in order to reset your password. </p>
-        <p>If you did not request a password reset kindly inform us by replying back to this email.</p>
-        <p>We love hearing from you and helping you with any issues you have.<br>
-        If you need more help or believe this email did not solve your problem, feel free to contact us.</p>
+        
         <p>Thanks</p>
 
         `
